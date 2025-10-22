@@ -110,7 +110,7 @@ def find_free_position(word):
     return random(100, width - 100), random(50, box_y - 20)
 
 def check_overlap(word, x, y):
-    """Check if (word at x,y) overlaps existing words."""
+    # check if (word at x,y) overlaps existing words
     word_w = textWidth(word)
     word_h = textAscent() + textDescent()
 
